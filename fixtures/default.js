@@ -62,8 +62,10 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                token: 'xxxx-xxxxxxxxx-xxxx',
+                channel: 'C1234567890',
+                name: 'glitch_crab',
+                timestamp: '1448551418.869386'
             }
         }
     }

@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "token",
+            "title":"Token"
+        },
+        {
+            "id": "name",
+            "title":"Emoji"
+        },
+        {
+            "id": "file",
+            "title":"File to add reaction"
+        },
+        {
+            "id": "file_comment",
+            "title":"File comment"
+        },
+        {
+            "id": "channel",
+            "title":"Channel"
+        },
+        {
+            "id": "timestamp",
+            "title":"Timestamp of the message"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "ok",
+            "title":"ok"
         }
-      */
     ],
-    "title": "Slack Add Reaction" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Slack Add Reaction"
 }
