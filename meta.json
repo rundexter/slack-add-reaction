@@ -2,7 +2,6 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "token",
@@ -29,14 +28,16 @@
             "title":"Timestamp of the message"
         }
     ],
-    //Required. Outputs the module emits.
     "outputs": [
         {
             "id": "ok",
             "title":"ok"
         }
     ],
+    "providers": [{
+        "name": "slack",
+        "scopes": ["reactions:write"]
+    }],
     "icon": "slack",
-    /* Required.A display name for the module */
     "title": "Slack Add Reaction"
 }
