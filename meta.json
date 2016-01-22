@@ -4,10 +4,6 @@
 {
     "inputs": [
         {
-            "id": "token",
-            "title":"Token"
-        },
-        {
             "id": "name",
             "title":"Emoji"
         },
